@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forget Page</title>
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.forgot-password-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.forgot-password-form {
+    background-color: #ffffff;
+    padding: 60px;
+    border-radius: 150px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+    </style>
+</head>
+<body>
+    <div class="forgot-password-container">
+        <form class="forgot-password-form" action="reset-password.php" method="post">
+            <h2>Forgot Password</h2>
+            <p>Enter your email address below to reset your password.</p>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <button type="submit">Reset Password</button>
+        </form>
+    </div>
+    
+</body>
+</html>
