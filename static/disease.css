@@ -1,0 +1,16 @@
+body{
+    background-color:rgba(250, 235, 215, 0.877) ;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 5px;
+            
+        }
+fieldset{
+    background-color: rgba(255, 228, 196, 0.445);
+    border-radius: 30px;
+
+}
+legend{
+    font-size: 40px;
+    color: rgb(10, 154, 154);
+}
