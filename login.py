@@ -13,10 +13,10 @@ app.secret_key = generate_secret_key()
 
 
 db = mysql.connector.connect(
-    host='Parths-MacBook-Air.local',
-    user='root',
-    password='Notlove@123',
-    database='login')
+    host='Your_host',
+    user='Your_username',
+    password='Your_Databse _pass',
+    database='Your_Database_Name')
 
 @app.route('/')
 def welcome():
