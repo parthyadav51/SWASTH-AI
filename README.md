@@ -8,11 +8,7 @@
 3. [Features](#features)
 4. [Dependencies](#dependencies)
 5. [Installation](#installation)
-6. [Usage](#usage)
-7. [Demo](#demo)
-8. [Contributing](#contributing)
-9. [License](#license)
-
+   
 ---
 
 ### Project Description
