@@ -43,8 +43,8 @@ To run this project, you will need the following dependencies:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo
+   git clone https://github.com/parthyadav51/SWASTH-AI.git
+   cd SWASTH-AI
    
 Create a virtual environment (optional but recommended):
 
